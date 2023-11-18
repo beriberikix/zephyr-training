@@ -1,6 +1,10 @@
 {
-  // "image": "golioth/golioth-zephyr-base:0.16.3-SDK-v0",
   "build": {
     "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["nordic-semiconductor.nrf-connect-extension-pack"]
+    }
   }
 }
