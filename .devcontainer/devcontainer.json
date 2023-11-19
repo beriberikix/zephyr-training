@@ -4,7 +4,10 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["nordic-semiconductor.nrf-connect-extension-pack"]
+      "extensions": ["nordic-semiconductor.nrf-connect-extension-pack"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "nRF Connect"
+      }
     }
   }
 }
