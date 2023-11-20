@@ -6,7 +6,7 @@ SHELL ["nrfutil","toolchain-manager","launch","/bin/bash","--","-c"]
 RUN \
   # west init -m https://github.com/nrfconnect/sdk-nrf --mr ${NCS_VERSION} . \
   # && west update --narrow -o=--depth=1
-  touch .west/config && printf "[manifest]\npath = .\nfile = west.yml" >> .west/config
+ # touch .west/config && printf "[manifest]\npath = .\nfile = west.yml" >> .west/config
 #   && west update \
 #   && west zephyr-export \
 #   && pip install -r deps/zephyr/scripts/requirements.txt
