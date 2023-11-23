@@ -1,6 +1,8 @@
 {
   "image": "golioth/golioth-ncs-base:v2.5.0-SDK-v0",
-  "onCreateCommand": "ls -al",
+  "onCreateCommand": {
+    "list files": "ls -al"
+  },
   "customizations": {
     "vscode": {
       "extensions": ["nordic-semiconductor.nrf-connect-extension-pack"],
