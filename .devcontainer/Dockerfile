@@ -10,4 +10,4 @@ RUN \
   # && west update \
   # && west zephyr-export \
   # && pip install -r deps/zephyr/scripts/requirements.txt
-  ls -al
+  # ls -al
